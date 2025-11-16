@@ -1,0 +1,38 @@
+Seam Carving Comparison Metrics Log
+========================================
+Base Image: ArtRoom.png (1024x813)
+Target Dimensions: 717x651
+
+[Original Image]
+  Dimensions: 1024x813
+  BRISQUE: nan
+
+[Sobel (Baseline)]
+  Dimensions: 717x651
+  BRISQUE:     nan (Lower is better)
+  Edge SSIM:   0.0081 (Higher is better)
+  Saliency SSIM: 0.7865 (Higher is better)
+
+[Saliency_Only]
+  Dimensions: 717x651
+  BRISQUE:     nan (Lower is better)
+  Edge SSIM:   0.0057 (Higher is better)
+  Saliency SSIM: 0.6885 (Higher is better)
+
+[DWT_Detail_Only]
+  Dimensions: 717x651
+  BRISQUE:     nan (Lower is better)
+  Edge SSIM:   0.0037 (Higher is better)
+  Saliency SSIM: 0.6561 (Higher is better)
+
+[DWT+Saliency_Fusion]
+  Dimensions: 717x651
+  BRISQUE:     nan (Lower is better)
+  Edge SSIM:   0.0047 (Higher is better)
+  Saliency SSIM: 0.5921 (Higher is better)
+
+[DWT+Saliency_Protection]
+  Dimensions: 717x651
+  BRISQUE:     nan (Lower is better)
+  Edge SSIM:   0.0079 (Higher is better)
+  Saliency SSIM: 0.6646 (Higher is better)
